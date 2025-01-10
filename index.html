@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br/> <span> Random Password </span>   </h1>
+        <p>Never use an insecure password again.</p>
+
+        <div class="password">
+            <input type="text" id ="password" placeholder="Password" size="50"  readonly >
+            <img class="copy" src="copy.png"  id ="copy">  
+
+            <div class="reload">  
+                <img src="reload.png" id ="generatePassword">  
+            </div>
+        </div>
+        
+        <div class="optionss">
+            <label for="lengthSlider"> Password Length</label>
+            <span id="slidervalue"> 8 </span>
+            <input type="range" class="slider" id="slider" min="1 " max="50" value="8" >           
+        </div>
+
+        <div class="options">
+            <p>Characters used:</p>
+            <label for="uppercase">ABC </label>
+            <input type="checkbox" id="uppercase" checked >
+
+            <label for="lowercase">abc </label>
+            <input type="checkbox" id="lowercase" >
+
+            <label for="numbers ">123 </label>
+            <input type="checkbox" id="numbers" > 
+
+            <label for="symbols">#$& </label>
+            <input type="checkbox" id="symbols" > 
+        </div>
+
+       
+    </div>
+    
+   <script src="app.js"></script>
+</body>
+</html>

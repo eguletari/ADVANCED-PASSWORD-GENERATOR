@@ -1,0 +1,130 @@
+
+body{
+    background-color: #002339;
+    font-family: Arial, sans-serif;
+    color:white
+}
+
+.container{
+    margin: 12%;   
+    width: 90%;
+    max-width: 500px;
+    position: flex;
+    background: #002339;
+    padding: 20px 15px;
+}
+
+.container button img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+.container button {
+    border: 0;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 10px 26px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+h1 span {
+    color: #019f55;
+}
+
+label{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 10px 0;
+}
+
+
+.optionss{
+    display:flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 10px 0;
+}
+
+.options{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.password{
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+} 
+
+.copy {
+    width: 20px;
+    cursor: pointer;
+}
+
+.copy:hover {
+    filter: contrast(2.5)
+}
+
+.password input {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+}
+
+.reload img{
+    width: 25px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.reload:hover {
+    filter: contrast(2.5)
+}
+/*
+#generatePassword{
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+} */
+
+
+.slider{
+    width: 60%; 
+    height: 7px;
+    accent-color: #4d967c;
+    cursor: pointer;
+}
