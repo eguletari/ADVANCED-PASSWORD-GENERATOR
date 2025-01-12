@@ -1,38 +1,91 @@
 
 body{
-    background-color: #002339;
-    font-family: Arial, sans-serif;
-    color:white
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0)
+}
+
+.hero{
+    background: #fff;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 5px 8%;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+nav .logo{
+    width: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav ul{
+     flex: 9;
+     text-align: right;
+     
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#000000;
+    font-size: 13px;
 }
 
 .container{
-    margin: 12%;   
-    width: 90%;
+    margin: 2%;   
+    width: 100%;
     max-width: 500px;
-    position: flex;
-    background: #002339;
+    position: relative;
+    background: #ffffff;
     padding: 20px 15px;
+    left: 760px;
+    top: 100px;
+    align-items: center;
+}
+
+.photo img{
+ 
+    width: 500px;
+    position: absolute;
+    bottom: 290px;
+    left: 250px;
+   
+    
+    
 }
 
 .container button img {
-    width: 18px;
-    margin-right: 10px;
+    width: 70;
+    position: absolute;
+    right: 0%;
 }
 
 
 .container button {
-    border: 0;
-    margin-top: 10px;
-    background-color: #4caf50;
-    color: #fff;
+    border: 0;       
+    color: #000000;
     border: none;
     font-weight: 300;
     border-radius: 5px;
-    padding: 10px 26px;
-    font-size: 16px;
-    display: flex;
+    padding: 3px 10px;
+    font-size: 14px;
+    display: fixed;
     align-items: center;
-    cursor: pointer;
+    
 }
 
 
@@ -45,7 +98,7 @@ h1{
 
 
 h1 span {
-    color: #019f55;
+    color: #4d967c;
 }
 
 label{
@@ -58,9 +111,10 @@ label{
 
 .optionss{
     display:flex;
-     align-items: center;
-     justify-content: space-between;
-     margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-top: -50px;
 }
 
 .options{
@@ -72,7 +126,7 @@ label{
 }
 
 .password{
-    width: 95%;
+    width: 85%;
     height: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -82,28 +136,40 @@ label{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 5px;
+    border-radius: 55px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 } 
 
+
+
 .copy {
-    width: 20px;
+    width: 25px;
     cursor: pointer;
+    position: relative;
+    left: 470px;
+    bottom: 70px;    
 }
 
+
+
 .copy:hover {
-    filter: contrast(2.5)
+    filter: drop-shadow(0 0 10px #a09e9e)
 }
 
 .password input {
     border: 0;
     outline: 0;
-    font-size: 14px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .reload img{
     width: 25px;
     cursor: pointer;
     padding: 10px;
+    position: relative;
+    left: -10px;
+    
 }
 
 .reload:hover {
@@ -128,3 +194,36 @@ label{
     accent-color: #4d967c;
     cursor: pointer;
 }
+
+.popup{
+    position: fixed;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+   
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 999;
+}
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 1rem;
+    accent-color: rgb(0, 0, 0);
+    border-radius: 9px;
+  }
+
+  .hint{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:140px;
+    font-family:  Courier;
+    
+  }
+
+
+  

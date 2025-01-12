@@ -1,0 +1,17 @@
+ {
+        "messages": [
+            { "id": 1, "message": "Use unique passwords for every account." },
+            { "id": 2, "message": "Use at least 12 characters." },
+            { "id": 3, "message": "Enable two-factor authentication for added protection." },
+            { "id": 4, "message": "Include numbers, symbols, and mixed cases." },
+            { "id": 5, "message": "Avoid reusing old passwords." },
+            { "id": 6, "message": "Store passwords in a secure manager." },            
+            { "id": 7, "message": "Avoid personal details in your passwords." },
+            { "id": 8, "message": "Update passwords regularly to stay secure." },
+            { "id": 9, "message": "Never share your passwords with anyone." },
+            { "id": 10, "message": "Beware of phishing scams and suspicious links." },
+            { "id": 11, "message": "Use password managers for better security." },
+            { "id": 12, "message": "Keep your devices and apps updated." }
+            
+        ]
+    }

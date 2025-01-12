@@ -5,25 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="hero">
+        <nav>
+            <img src="abstract_5854637.png" alt="" class="logo">
+            <ul>
+                <li><a href="">Business </a></li>
+                <li><a href="">Personal </a></li>
+                <li><a href=""> Pricing </a></li>
+                <li><a href="">Solution</a></li>
+                <li><a href="">Performance </a></li>
+                <li><a href=""><i class="fa fa-shopping-cart"></i>  Store</a></li>
+            </ul>
+            <ul>
+                <li> <a href=""> <i class="fas fa-headset"></i>   Support</a></li>
+                <li><a href=""> <i class="fas fa-user-circle"></i>   Account</a></li>
+            </ul>
+        </nav>
+          
+        <!--1st-->
+        <div class="container">
         <h1>Generate a <br/> <span> Random Password </span>   </h1>
         <p>Never use an insecure password again.</p>
-
+     
         <div class="password">
-            <input type="text" id ="password" placeholder="Password" size="50"  readonly >
-            <img class="copy" src="copy.png"  id ="copy">  
+            <input type="text" id ="password" placeholder="Password"   readonly >
+            <button  id="passwordstrength">  </button> 
 
             <div class="reload">  
                 <img src="reload.png" id ="generatePassword">  
-            </div>
+               
+            </div>   
+        </div>
+
+        <div>
+            <img class="copy" src="copy.png"  id ="copy">  
         </div>
         
         <div class="optionss">
             <label for="lengthSlider"> Password Length</label>
             <span id="slidervalue"> 8 </span>
-            <input type="range" class="slider" id="slider" min="1 " max="50" value="8" >           
+            <input type="range" class="slider" id="slider" min="1" max="32" value="8" >           
         </div>
 
         <div class="options">
@@ -39,11 +63,25 @@
 
             <label for="symbols">#$& </label>
             <input type="checkbox" id="symbols" > 
+        </div>     
+        
         </div>
 
-       
-    </div>
-    
-   <script src="app.js"></script>
+        <!--image change-->
+        <div class="photo">
+            <img id="strength-image" src="">    
+        </div>
+
+
+        
+        <div class="hint">
+            <h4>  </h4>
+            <a id="hint">  always stay safe</a>
+        </div>
+        
+   </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
+
